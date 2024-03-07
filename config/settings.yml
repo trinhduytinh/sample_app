@@ -1,0 +1,3 @@
+model:
+  validate_name: 50
+  validate_email: 255
