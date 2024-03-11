@@ -15,3 +15,20 @@ en:
   text_5: "This is the home page for the"
   text_6: "Ruby onRails Tutorial"
   text_7: "sample application."
+  create_my_account: "Create"
+  sign_up: "Sign up"
+  the_form_contains: "The Form Contains"
+  error: "error"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Password Confirmation"
+  error:
+    messages: "User not found."
+  success:
+    messages: "Created successfully."
