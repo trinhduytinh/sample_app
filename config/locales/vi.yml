@@ -15,3 +15,20 @@ vi:
   text_5: "Đây là trang chủ cho"
   text_6: "Hướng dẫn Ruby on Rails"
   text_7: "ứng dụng mẫu."
+  create_my_account: "Tạo tài khoản"
+  sign_up: "Đăng ký"
+  the_form_contains: "Biểu mẫu chứa"
+  error: "lỗi"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật Khẩu"
+        confirmation: "Xác nhận mật khẩu"
+  error:
+    messages: "Không tìm thấy người dùng."
+  success:
+    messages: "Tạo mới thành công."
