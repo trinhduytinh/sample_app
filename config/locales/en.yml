@@ -17,8 +17,15 @@ en:
   text_7: "sample application."
   create_my_account: "Create"
   sign_up: "Sign up"
-  the_form_contains: "The Form Contains"
-  error: "error"
+  users: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  log_in: "Log in"
+  new_user: "New user?"
+  sign_up_now: "Sign up now!"
+  user_not_found: "User not found!"
   activerecord:
     models:
       user: "User"
@@ -30,5 +37,8 @@ en:
         confirmation: "Password Confirmation"
   error:
     messages: "User not found."
+    the_form_contains: "The Form Contains"
+    title: "Error"
+    invalid_email_password_combination: "Wrong password!"
   success:
     messages: "Created successfully."
