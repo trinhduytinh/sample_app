@@ -17,8 +17,15 @@ vi:
   text_7: "ứng dụng mẫu."
   create_my_account: "Tạo tài khoản"
   sign_up: "Đăng ký"
-  the_form_contains: "Biểu mẫu chứa"
-  error: "lỗi"
+  users: "Người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+  log_in: "Đăng nhập"
+  new_user: "Người mới?"
+  sign_up_now: "Đăng khí ngay!"
+  user_not_found: "Không tồn tại người dùng!"
   activerecord:
     models:
       user: "Người dùng"
@@ -30,5 +37,8 @@ vi:
         confirmation: "Xác nhận mật khẩu"
   error:
     messages: "Không tìm thấy người dùng."
+    the_form_contains: "Biểu mẫu chứa"
+    title: "lỗi"
+    invalid_email_password_combination: "Mật khẩu không đúng!"
   success:
     messages: "Tạo mới thành công."

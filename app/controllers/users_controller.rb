@@ -16,6 +16,8 @@ class UsersController < ApplicationController
 
     if @user.save
       # something
+      reset_session
+      log_in @user
       flash[:success] = t("success.messages")
       redirect_to @user, status: :see_other
     else

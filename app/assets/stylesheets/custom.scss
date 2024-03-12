@@ -76,3 +76,14 @@ select,
 input {
   height: auto !important;
 }
+/* Dropdown menu */
+.dropdown-menu.active {
+  display: block;
+}
+.dropdown-menu{
+  button {
+    border: none;
+    width: 100%;
+    background-color: white;
+  }
+}

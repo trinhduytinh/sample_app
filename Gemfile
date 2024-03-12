@@ -46,6 +46,7 @@ gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "rails-i18n"
 gem "sass-rails"
+gem "webpacker"
 # Use Sass to process CSS
 # gem "sassc-rails"
 
