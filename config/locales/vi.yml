@@ -22,10 +22,10 @@ vi:
   profile: "Hồ sơ"
   settings: "Cài đặt"
   log_out: "Đăng xuất"
-  log_in: "Đăng nhập"
   new_user: "Người mới?"
-  sign_up_now: "Đăng khí ngay!"
-  user_not_found: "Không tồn tại người dùng!"
+  sign_up_now: "Đăng ký ngay!"
+  user_not_found: "Không tìm thấy người dùng!"
+  remember: "Ghi nhớ tôi trên máy tính này"
   activerecord:
     models:
       user: "Người dùng"
@@ -33,12 +33,13 @@ vi:
       user:
         name: "Tên"
         email: "Email"
-        password: "Mật Khẩu"
+        password: "Mật khẩu"
         confirmation: "Xác nhận mật khẩu"
+        remember_me: "Nhớ tôi"
   error:
     messages: "Không tìm thấy người dùng."
     the_form_contains: "Biểu mẫu chứa"
-    title: "lỗi"
+    title: "Lỗi"
     invalid_email_password_combination: "Mật khẩu không đúng!"
   success:
     messages: "Tạo mới thành công."

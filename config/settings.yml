@@ -2,3 +2,4 @@ model:
   validate_name: 50
   validate_email: 255
   validate_password: 6
+  value_create: "1"
