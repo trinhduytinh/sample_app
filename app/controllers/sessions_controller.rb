@@ -6,8 +6,8 @@ class SessionsController < ApplicationController
 
   def create
     # Log the user in and redirect to the user's show page:
-    reset_session
     log_in @user
+    params.dig(:session, :remember_me) == Settings.model.value_create ? remember(@user) : forget(@user)
     redirect_to @user, status: :see_other
   end
 

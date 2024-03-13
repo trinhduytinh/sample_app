@@ -26,6 +26,7 @@ en:
   new_user: "New user?"
   sign_up_now: "Sign up now!"
   user_not_found: "User not found!"
+  remember: "Remember me on this computer"
   activerecord:
     models:
       user: "User"
@@ -35,6 +36,7 @@ en:
         email: "Email"
         password: "Password"
         confirmation: "Password Confirmation"
+        remember_me: "Remember me"
   error:
     messages: "User not found."
     the_form_contains: "The Form Contains"
